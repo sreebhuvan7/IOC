@@ -9,7 +9,6 @@ from tkinter import filedialog
 import pandas as pd
 import numpy as np
 import os
-from IPython.display import display
 
 root1= tk.Tk()
 root1.title('Iron Oxide Converter')
