@@ -189,7 +189,7 @@ elif 'Fe2O3' in df:
     FeO = round(x*Fe2O3,2)
     Fe2O3t = round(Fe2O3+(h*FeO),2)
     FeOt = round((g*Fe2O3)+FeO,2)
-    df["FeO"] = Fe2O3
+    df["FeO"] = FeO
     df["Fe2O3t"] = Fe2O3t
     df["FeOt"] = FeOt
 
